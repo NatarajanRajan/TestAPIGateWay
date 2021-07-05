@@ -1,0 +1,39 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{CatchAll}",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+
+        {
+          "Host": "localhost",
+          "Port": "44332"
+        }
+      ],
+      "UpstreamPathTemplate": "/common-api/{CatchAll}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/{CatchAll}",
+      "DownstreamScheme": "https",
+      "DownstreamHostandPorts": [
+
+        {
+          "Host": "localhost",
+          "Port": "44398"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/{CatchAll}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44380"
+  }
+}

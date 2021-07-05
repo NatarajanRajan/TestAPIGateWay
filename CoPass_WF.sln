@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoPass_WF.API", "API\CoPass_WF.API\CoPass_WF.API.csproj", "{C973A7BD-D8B9-4EF5-BFEA-7F95F02F60A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoPass_WF.AuthServer", "API\CoPass_WF.AuthServer\CoPass_WF.AuthServer.csproj", "{315B6EF5-DA44-4522-A250-782E01A3B525}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoPass_WF.CommonAPI", "API\CoPass_WF.CommonAPI\CoPass_WF.CommonAPI.csproj", "{A230110C-67B6-462C-886A-8F7211FA00AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C973A7BD-D8B9-4EF5-BFEA-7F95F02F60A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C973A7BD-D8B9-4EF5-BFEA-7F95F02F60A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C973A7BD-D8B9-4EF5-BFEA-7F95F02F60A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C973A7BD-D8B9-4EF5-BFEA-7F95F02F60A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315B6EF5-DA44-4522-A250-782E01A3B525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315B6EF5-DA44-4522-A250-782E01A3B525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315B6EF5-DA44-4522-A250-782E01A3B525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315B6EF5-DA44-4522-A250-782E01A3B525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A230110C-67B6-462C-886A-8F7211FA00AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A230110C-67B6-462C-886A-8F7211FA00AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A230110C-67B6-462C-886A-8F7211FA00AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A230110C-67B6-462C-886A-8F7211FA00AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB9B4D7-7F68-466D-B30F-59DFAE7A8D0C}
+	EndGlobalSection
+EndGlobal
